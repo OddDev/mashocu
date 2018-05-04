@@ -22,7 +22,6 @@ export class Board extends Component {
         // If no, how's it supposed to be done?
         this.props.history.push(`/practice/${parseInt(this.props.match.params.index, 10) + 1}`)
         // Review - *1) If that is the common case, is it correct to handle the state like shown here or is this commonly done in a lifecycle method? And if yes, which one? 
-        // Reseting the index if last element reached
         const nextCharacterTuple = LessonsAPI.get(parseInt(this.props.match.params.index, 10))
         this.setState({
             currentCharacter: nextCharacterTuple[0],
