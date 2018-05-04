@@ -1,0 +1,15 @@
+.modifier {
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.modifier.active {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.modifier.inactive {
+    background-color: lightblue;
+    font-weight: lighter;
+}

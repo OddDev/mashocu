@@ -1,0 +1,5 @@
+.modifier-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
